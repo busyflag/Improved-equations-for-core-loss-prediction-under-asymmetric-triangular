@@ -247,20 +247,34 @@ $$\boxed{P = \frac{1}{T} \int_{B(0)}^{B(T)} H \, dB}$$
 
 ## 5. Materials and Data
 
-### 5.1 Material Overview
+### 5.1 Material Specifications
 
-Four typical magnetic core materials were selected for validation experiments:
+Four typical ferrite core materials were selected for validation experiments:
 
-| Material | Description | Characteristics |
-|---------|-------------|------------------|
-| **Material 1** | Ferrite core | Good high-frequency performance |
-| **Material 2** | Ferrite core | Low loss at high frequencies |
-| **Material 3** | Ferrite core | Balanced properties |
-| **Material 4** | Ferrite core | Optimized for specific applications |
+| Material ID | Manufacturer | Material Grade | Application | Initial Permeability (μᵣ) | Tested Core |
+|:-----------:|:------------:|:--------------:|:-----------:|:------------------------:|:-----------:|
+| **Material 1** | TDK | N87 | Power transformers | 2200 | R34.0X20.5X12.5 |
+| **Material 2** | TDK | N27 | Power transformers | 2000 | R20.0X10.0X7.0 |
+| **Material 3** | Fair-Rite | 77 | High/low flux inductive designs | 2000 | 5977001401 |
+| **Material 4** | Ferroxcube | 3C94 | Power and general-purpose transformers | 2300 | TX-20-10-7 |
 
-*Note: Specific material compositions are not disclosed in the paper due to commercial sensitivity.*
+### 5.2 Material Properties Summary
 
-### 5.2 Experimental Data Specifications
+| Property | Material 1 (N87) | Material 2 (N27) | Material 3 (77) | Material 4 (3C94) |
+|----------|:---------------:|:---------------:|:---------------:|:---------------:|
+| **Type** | MnZn Ferrite | MnZn Ferrite | MnZn Ferrite | MnZn Ferrite |
+| **μᵣ (Initial Permeability)** | 2200 | 2000 | 2000 | 2300 |
+| **Core Geometry** | Toroid (R34×20.5×12.5) | Toroid (R20×10×7) | Toroid (5977001401) | Toroid (TX-20-10-7) |
+| **Primary Application** | Power Transformers | Power Transformers | High/Low Flux Inductive Designs | Power & General-purpose Transformers |
+
+### 5.3 Material Selection Rationale
+
+- **Material 1 (TDK N87)**: High-performance power ferrite with low losses at high frequencies
+- **Material 2 (TDK N27)**: Designed for high-frequency power transformer applications
+- **Material 3 (Fair-Rite 77)**: Optimized for inductive designs requiring high/low flux operation
+- **Material 4 (Ferroxcube 3C94)**: Widely used general-purpose power ferrite material
+
+### 5.4 Experimental Data Specifications
 
 | Parameter | Specification |
 |-----------|---------------|
@@ -270,7 +284,7 @@ Four typical magnetic core materials were selected for validation experiments:
 | **Temperature range** | 25°C - 100°C (typical) |
 | **Frequency range** | Variable (see data files) |
 
-### 5.3 Data File Format
+### 5.5 Data File Format
 
 Excel files (`Material1.xlsx`, `Material2.xlsx`, `Material3.xlsx`, `Material4.xlsx`) contain:
 
@@ -281,6 +295,15 @@ Excel files (`Material1.xlsx`, `Material2.xlsx`, `Material3.xlsx`, `Material4.xl
 | 3 | Core Loss (W/m³) | Measured/actual loss value |
 | 4 | Waveform Type | 1=Sinusoidal, 2=Triangular, 3=Trapezoidal |
 | 5~1028 | B(t) values | 1024 sampling points of magnetic flux density (T) |
+
+### 5.6 Material-to-File Mapping
+
+| File | Corresponding Material |
+|------|------------------------|
+| `Material1.xlsx` | TDK N87 (μᵣ=2200, R34.0X20.5X12.5) |
+| `Material2.xlsx` | TDK N27 (μᵣ=2000, R20.0X10.0X7.0) |
+| `Material3.xlsx` | Fair-Rite 77 (μᵣ=2000, 5977001401) |
+| `Material4.xlsx` | Ferroxcube 3C94 (μᵣ=2300, TX-20-10-7) |
 
 ---
 
