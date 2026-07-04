@@ -30,8 +30,7 @@
 7. [Running the Code](#7-running-the-code)
 8. [Results and Discussion](#8-results-and-discussion)
 9. [Fitting Parameters](#9-fitting-parameters)
-10. [Acknowledgments](#10-acknowledgments)
-11. [References](#11-references)
+10. [References](#11-references)
 
 ---
 
@@ -454,7 +453,7 @@ As shown in **Figure 6**, the 3D comparison reveals:
 ---
 
 
-## 10. References
+## 10. References(main)
 
 [1] G. Bertotti, "General properties of power losses in soft ferromagnetic materials," IEEE Trans. Magn., vol. 24, no. 1, pp. 621–630, 1988.
 
@@ -506,7 +505,7 @@ If this work is useful for your research, please cite:
 ## 📧 Contact
 
 - **fIRST Author**: Yue Wang
-- **Email**: 2574414382@qq.com
+- **Email**: 2574414382@qq.com/233302124@stu.yzu.edu.cn
 - **Institution**: College of Electrical, Energy and Power Engineering, Yangzhou University
 - **Address**: Yangzhou 225000, China
 
