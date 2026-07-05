@@ -527,7 +527,7 @@ If this work is useful for your research, please cite:
 
 ## 📧 Contact
 
-- **fIRST Author**: Yue Wang
+- **Author**: Yue Wang
 - **Email**: 2574414382@qq.com/233302124@stu.yzu.edu.cn
 - **Institution**: College of Electrical, Energy and Power Engineering, Yangzhou University
 - **Address**: Yangzhou 225000, China
